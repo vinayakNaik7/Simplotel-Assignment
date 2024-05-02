@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.nav-link{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.5rem !important;
+    font-style: normal;
+    color: #000 !important;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar-brand img {
+    width: 6.2rem;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 0.5rem;
+}
+
+.navbar-nav.ml-auto .nav-item {
+    margin-right: 0;
+}
+
+.items-img {
+    width: 2.4rem;
+    height: auto;
+}
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.hero-img, .hero-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img img {
+    object-fit: cover;
+}
+
+.hero-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    border:hidden;
+    background-image: linear-gradient(to left, grey, black);
+    padding: 0.5rem;
+    width: 25%;
+    font-weight: 700;
+    font-size: 2rem !important;
+    font-style: normal;
+}
+
+.card-btn {
+    color: #FFFFFF;
+    border: hidden;
+    background-color: #000;
+    padding: 0.6rem 3rem;
+}
+
+.hero-text {
+    background-color: #B2B2B2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem !important;
+    font-style: normal;
+}
+
+
+
+.cards-menu, .cards-menu h1 {
+    background-color: #DAD6DF;
+}
+
+.cards-menu h1{
+    font-weight: 700;
+    font-size: 2.8rem !important;
+    font-style: normal;
+}
+
+.card,
+.card-body,
+.card-img-top {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background-color: #DAD6DF;
+}
+
+.card-title, .card-btn{
+    font-weight: 700 !important;
+}
+
+.card-text p{
+    font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-text{
+        flex-direction: column !important;
+    }
+    .hero-btn{
+        font-size: 1.5rem !important;
+        width: 50%;
+    }
+    .card-body{
+        text-align: left !important;
+    }
+}
